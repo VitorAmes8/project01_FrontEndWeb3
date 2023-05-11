@@ -1,0 +1,46 @@
+.list {
+  display: flex;
+  flex-direction: row;
+  width: 40.6rem;
+  height: fit-content; 
+  background: #1A1924;
+  border-radius: 5px;
+  align-items: center;
+}
+  
+.list .p1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: var(--gray-light);
+}
+  
+.list .p2 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 160%;
+  color: var(--gray-dark);
+}
+
+.contact{
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 100px;
+  border: 2.5px solid rgb(23, 0, 41);
+  margin-left: 130px;
+}
+
+.img:hover{
+  box-shadow: 0px 0px 17px 0px rgb(23, 0, 41);
+}
+    
